@@ -63,10 +63,3 @@ jobs:
       #
       - name: Deploy
         run: ./scripts/deploy.sh
-
-      
-      #
-      # Deletes the configuration template and deploys the microservice.
-      #
-      - name: Delete
-        run: ./scripts/delete.sh
