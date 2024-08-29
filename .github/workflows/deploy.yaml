@@ -66,7 +66,7 @@ jobs:
 
       
       #
-            # Expands the configuration template and deploys the microservice.
-            #
-            - name: Delete
-              run: ./scripts/delete.sh
+      # Deletes the configuration template and deploys the microservice.
+      #
+      - name: Delete
+        run: ./scripts/delete.sh
